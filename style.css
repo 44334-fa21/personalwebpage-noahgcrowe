@@ -1,1 +1,21 @@
 /*Personal Web Page Style Sheet */
+head {font-size: 24;
+      font-family: sans-serif;}
+p {text-decoration: underline;}
+
+#demo {display:flex;
+        flex-direction: row;}
+nav flex 5;
+body flex 5;
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
